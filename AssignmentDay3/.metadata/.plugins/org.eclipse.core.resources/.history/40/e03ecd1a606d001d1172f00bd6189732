@@ -1,0 +1,46 @@
+package com.java.foodorderapp;
+
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class GuestUser {
+	
+	public void guestUserMenu() {
+		while(true) {
+			System.out.println("1.Register 2.Login 3.Forgot Password");
+			System.out.println("Enter your choice");
+			Scanner sc=new Scanner(System.in);
+			int ch=sc.nextInt();
+			switch (ch) {
+		      case 1:
+		    	  SignUp.signUp(); 
+		        break;
+		      case 2:
+		        SignIn.signIn();
+		        if(SignIn.flag==1) {
+		        	LoggedInUser.menuForLoggedInUser();
+		        }
+		        break;
+		      case 3:
+		        fp.forgetPassword();
+		        break;
+		        
+		      default:
+		    	    System.out.println("please choose a valid options");  
+		      
+		   
+			}
+			
+		}
+	}
+
+	public static void main(String[] args) {
+		
+		GuestUser guser=new GuestUser();
+		guser.guestUserMenu();
+		
+			
+	}
+
+}

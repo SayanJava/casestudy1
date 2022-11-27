@@ -1,0 +1,5 @@
+package com.java.foodorderapp;
+
+public class LoggedInUser {
+
+}

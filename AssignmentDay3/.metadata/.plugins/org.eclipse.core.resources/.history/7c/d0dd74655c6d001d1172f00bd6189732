@@ -1,0 +1,39 @@
+package com.java.foodorderapp;
+
+import java.util.Scanner;
+
+public class LoggedInUser {
+
+	public void menuForLoggedInUser() {
+		
+		while(true) {
+			System.out.println(" 1.View all food items 5.Reset password 6.Logout");
+			System.out.println("Enter your choice");
+			Scanner sc=new Scanner(System.in);
+			int ch1=sc.nextInt();
+			switch (ch1) { 
+		      case 1:
+		    	  //ViewAllUsers.viewAllUser();
+		    	  System.out.println("select to see all food items");
+			        break; 
+		      case 5:
+			        //ResetPassword.resetPassword();
+		    	  System.out.println("select to reset your password");
+			        break;  
+		      case 6:
+			        System.out.println("logout successfully");
+			        break;
+		        
+		      default:
+		    	    System.out.println("please choose a valid options");  
+		      
+		   
+			}
+			
+		}
+		
+
+	}
+
+}
+

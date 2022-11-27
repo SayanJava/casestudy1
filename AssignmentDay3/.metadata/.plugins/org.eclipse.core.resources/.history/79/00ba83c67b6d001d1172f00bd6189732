@@ -1,0 +1,23 @@
+package com.java.LamdaAndStream;
+
+import java.util.stream.Stream;
+
+public class StreamAPI {
+
+	public static void main(String[] args) {
+		
+		//1--blank
+		Stream<Object> empty=Stream.empty();
+		empty.forEach(e->{
+			System.out.println(e);
+		});
+		
+		String names[]= {"sayan","angan","pallab","shiv","gourav"};
+		Stream<String> stream1=Stream.of(names);
+		stream1.forEach(e->{
+			System.out.println(e);
+		});
+
+	}
+
+}

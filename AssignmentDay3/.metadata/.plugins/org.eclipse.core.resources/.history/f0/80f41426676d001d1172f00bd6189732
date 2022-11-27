@@ -1,0 +1,9 @@
+package com.java.foodorderapp;
+
+import java.util.Scanner;
+
+public class LoggedInUser {
+
+	
+}
+
