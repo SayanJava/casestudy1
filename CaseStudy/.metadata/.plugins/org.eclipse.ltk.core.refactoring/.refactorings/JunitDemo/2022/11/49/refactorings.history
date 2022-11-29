@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename package &apos;com.Dt.JunitDemo.epo&apos; to &apos;com.Dt.JunitDemo.repo&apos;&#x0D;&#x0A;- Original project: &apos;JunitDemo&apos;&#x0D;&#x0A;- Original element: &apos;JunitDemo/src/test/java/com.Dt.JunitDemo.epo&apos;&#x0D;&#x0A;- Renamed element: &apos;JunitDemo/src/test/java/com.Dt.JunitDemo.repo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.Dt.JunitDemo.epo&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/test\/java&lt;com.Dt.JunitDemo.epo" name="com.Dt.JunitDemo.repo" qualified="false" references="true" stamp="1669634683067" textual="false" version="1.0"/>
-</session>
