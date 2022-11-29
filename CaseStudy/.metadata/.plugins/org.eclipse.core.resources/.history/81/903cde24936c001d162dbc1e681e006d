@@ -1,0 +1,58 @@
+package com.tweetapp;
+
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class registraion {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("1.Register 2.Login 3.Forgot Password");
+		System.out.println("Enter your choice");
+		int ch=sc.nextInt();
+		String stringvalidate="^[A-Za-z]\\w{5,29}$";
+		switch (ch) {
+	      case 1:
+	        System.out.println("Please Register");
+	        System.out.println("Enter your First Name");
+	        String fname=sc.next();
+	        Pattern p = Pattern.compile(stringvalidate);
+	        Matcher m = p.matcher(fname);
+	        boolean fnameflag=m.matches();
+	        if(fname!=null && fnameflag==true) {
+	        	System.out.println("valid");
+	        }
+	        else {
+	        	System.out.println("not valid");
+	        }
+	        System.out.println("Enter your email");
+	        String email=sc.next();
+	        System.out.println("Enter your Password");
+	        String pass=sc.next();
+	        break;
+	      case 2:
+	        System.out.println("please login");
+	        System.out.println("enter email as username");
+	        String user_id=sc.next();
+	        System.out.println("enter password");
+	        String password=sc.next();
+	        break;
+	      case 3:
+	        System.out.println("enter a new password");
+	        String newpass=sc.next();
+	        break;
+	        
+	      default:
+	    	    System.out.println("please choose a valid options");  
+	      
+	   
+		}
+		
+		
+		
+
+	}
+
+}

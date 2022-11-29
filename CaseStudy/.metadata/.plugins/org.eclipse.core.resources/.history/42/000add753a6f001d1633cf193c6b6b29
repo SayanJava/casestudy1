@@ -1,0 +1,17 @@
+package com.java.test.tweetapp;
+
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
+import com.java.tweetapp.SignIn;
+
+public class TestTweet {
+
+	@Test
+	void testSignIn() {
+		SignIn sin=new SignIn();
+		assertTrue(true,sin.signIn());
+		
+	}
+}

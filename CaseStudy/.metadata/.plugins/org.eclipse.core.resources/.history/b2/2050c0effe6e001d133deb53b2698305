@@ -1,0 +1,5 @@
+package com.Dt.JunitDemo.repo;
+
+public interface Custrepo {
+
+}

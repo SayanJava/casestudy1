@@ -1,0 +1,20 @@
+package com.java.test.tweetapp;
+
+import static org.junit.Assert.assertThat;
+
+import org.junit.Test;
+
+import com.java.tweetapp.SignIn;
+
+public class TestTweet {
+	
+	SignIn sin=new SignIn();
+
+	@Test
+	void testSignIn() {
+		boolean exRes=true;
+		boolean acRes=sin.signIn();
+		assertThat(acRes).isEqualTo(exRes);
+		
+	}
+}

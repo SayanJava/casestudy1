@@ -1,0 +1,12 @@
+package com.Dt.JunitDemo;
+
+public class Calculater {
+	
+	public int doSum(int x,int y) {
+		return x*y;
+	}
+	public int doProd(int x,int y) {
+		return x*y;
+	}
+
+}

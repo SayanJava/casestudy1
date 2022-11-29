@@ -1,0 +1,29 @@
+package com.java.test.tweetapp;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+import com.java.tweetapp.SignIn;
+import com.java.tweetapp.SignUp;
+
+public class TestTweet {
+	
+	SignIn sin=new SignIn();
+	SignUp sup=new SignUp();
+
+	@Test
+	public void testSignIn() {
+		boolean exRes=true;
+		boolean acRes=sin.signIn();
+		assertEquals(exRes,acRes);
+		
+	}
+	
+	@Test
+	public void testSignUp() {
+		boolean exRes=true;
+		boolean acRes=sup.signUp();
+		assertEquals(exRes,acRes);
+		
+	}
+}

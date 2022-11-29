@@ -1,0 +1,11 @@
+package com.java.test.tweetapp;
+
+import org.junit.Test;
+
+public class TestTweet {
+
+	@Test
+	void testSignIn() {
+		
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.tweetapp&apos; to &apos;com.java.tweetapp&apos;&#x0D;&#x0A;- Original project: &apos;tweetapp&apos;&#x0D;&#x0A;- Original element: &apos;tweetapp/src/com.tweetapp&apos;&#x0D;&#x0A;- Renamed element: &apos;tweetapp/src/com.java.tweetapp&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.tweetapp&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.tweetapp" name="com.java.tweetapp" qualified="false" references="true" stamp="1669643267518" textual="false" version="1.0"/>
+</session>

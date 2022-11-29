@@ -1,0 +1,24 @@
+package com.java.demo;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
+
+public class StreamAPI {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List <Integer> num= Arrays.asList(3,5,7,9,9,8,9);
+//		Stream<Integer> da= num.stream();
+//		Stream<Integer> sort= da.sorted();
+		
+		num.stream()
+					.filter(n->n%2==1)
+					.sorted()
+					.map(n->n*2)
+					.forEach(n->System.out.println(n));
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.Dt.JunitDemo.entity;
+
+public class Customer {
+
+}

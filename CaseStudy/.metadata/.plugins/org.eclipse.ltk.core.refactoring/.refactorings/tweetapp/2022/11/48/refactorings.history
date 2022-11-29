@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.tweetapp.registraion&apos; to &apos;GuestUser&apos;&#x0D;&#x0A;- Original project: &apos;tweetapp&apos;&#x0D;&#x0A;- Original element: &apos;com.tweetapp.registraion&apos;&#x0D;&#x0A;- Renamed element: &apos;com.tweetapp.GuestUser&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;registraion&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.tweetapp{registraion.java[registraion" matchStrategy="1" name="GuestUser" qualified="false" references="true" similarDeclarations="false" stamp="1669362065244" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,21 @@
+package com.Dt.JunitDemo.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.Dt.JunitDemo.entity.Customer;
+import com.Dt.JunitDemo.repo.Custrepo;
+
+@Service
+public class CustService {
+	
+	@Autowired
+	private Custrepo crepo;
+	
+	public List<Customer> getAllCustomer(){
+		return this.crepo.findAll();
+	}
+
+}
